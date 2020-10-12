@@ -1,0 +1,17 @@
+{
+  "name": "forum-db",
+  "version": "1.0.0",
+  "description": "Chirag's Forum database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Chirag Singh Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "pg": "^8.4.1"
+  }
+}
