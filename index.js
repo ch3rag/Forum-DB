@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (res, res) => {
+app.get('/', (req, res) => {
 	res.json({
 		message: 'This is Chirag\'s Forum Database',		
 	});
