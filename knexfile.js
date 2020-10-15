@@ -6,8 +6,8 @@ module.exports = {
 	connection: {
 		host : 'localhost',
 		database: 'forum-db',
-		user: 'postgres',
-		password: 'chirag2908'
+		user: DATABASE_USERNAME
+		password: DATABASE_PASSWORD
 	  },
   },
   production: {
